@@ -6,8 +6,6 @@ export default defineConfig({
     next({ routeDir: "src/app" })
   ],
   ssr: {
-    noExternal: [
-      "@mui/**",
-    ],
+    noExternal: ["@mui/**"],
   }
 });
