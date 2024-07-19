@@ -10,15 +10,18 @@
     "post-update": "echo \"codesandbox preview only, need an update\" && pnpm update --latest"
   },
   "dependencies": {
+    "@hiogawa/react-server": "https://pkg.pr.new/hi-ogawa/vite-plugins/@hiogawa/react-server@6ef3cdb",
+    "next": "https://pkg.pr.new/hi-ogawa/vite-plugins/@hiogawa/react-server-next@6ef3cdb",
+    "react": "rc",
+    "react-dom": "rc",
+    "react-server-dom-webpack": "rc",
+    "vite": "latest",
     "@emotion/cache": "latest",
     "@emotion/react": "latest",
     "@emotion/styled": "latest",
     "@mui/icons-material": "next",
     "@mui/material": "next",
-    "@mui/material-nextjs": "next",
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest"
+    "@mui/material-nextjs": "next"
   },
   "devDependencies": {
     "@types/node": "latest",
